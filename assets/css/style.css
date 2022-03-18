@@ -5,48 +5,176 @@
 } */
 
 /*(1) Your answer goes below here for question #1 please use the border below */
-/* border: 3px solid #ffcc5c; */
 
+.question1{
+  display: flex;
+  flex-grow: 1;
+  border: 3px solid #ffcc5c;
+}
 
+.Home1{
+  flex-grow: 1;
+}
+.Search1{
+  flex-grow: 1;
+}
+.Logout1{
+  flex-grow: 1;
+}
 /*(2) Your answer goes below here for question #2 please use the border below */
-/* border: 3px solid #1f2546; */
+
+.question2{
+  display: flex;
+  justify-content: space-between;
+  border: 3px solid #1f2546
+}
 
 
 /*(3) Your answer goes below here for question #3 please use the border below */
-/* border: 3px solid #e31c79; */
+
+.question3{
+  border: 3px solid #e31c79;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.Home3{
+  order: 3;
+}
+.Search3{
+  order: 2;
+}
+.Login3{
+  order: 1;
+}
 
 
 /*(4) Your answer goes below here for question #4 please use the border below */
-/* border: 3px solid #e33618; */
 
+.question4{
+  border: 3px solid #e33618; 
+  display: flex;
+  flex-direction: column;
+}
+.Home4{
+  align-self: flex-end;
+}
+.Search4{
+  align-self: center;
+}
+.Logout4{
+  align-self: flex-end;
+}
+.Login4{
+  align-self: flex-start;
+}
 
 /*(5) Your answer goes below here for question #5 please use the border below */
-/* border: 3px solid #1f2546; */
 
+.question5{
+  border: 3px solid #1f2546;
+  display: flex;
+  flex-direction: column;
+}
+.Home5{
+  align-self: flex-end;
+}
+.Search5{
+  align-self: flex-start;
+}
+.Logout5{
+  align-self: flex-end;
+}
+.Login5{
+  align-self: flex-start;
+}
 
 /*(6) Your answer goes below here for question #6 please use the border below */
-/* border: 3px solid #91d2e0 */
+
+.question6{
+  border: 3px solid #91d2e0;
+  display: flex;
+  flex-direction: column;
+}
+.Home6{
+  align-self: flex-end;
+}
+.Logout6{
+  align-self: flex-end;
+}
+.Login6{
+  align-self: flex-start;
+}
 
 
 /*(7) Your answer goes below here for question #7 please use the border below */
-/* border: 3px solid #139dc2; */
+
+.question7{
+  border: 3px solid #139dc2;
+  display: grid;
+  grid-template-columns: repeat(14, auto);
+  grid-template-rows: repeat(4, 114px);
+}
+
 
 
 /*(8) Your answer goes below here for question #8 please use the border & background below */
-/* border: 3px solid #7b8ac7; */
-/* background-color: #bad3e2; */
+
+.question8{
+  border: 3px solid #7b8ac7;
+  background-color: #bad3e2;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  
+}
 
 
 /*(9) Your answer goes below here for question #9 please use the border & background below */
-/* border: 3px solid #7b8ac7; */
-/* background-color: #bad3e2; */
+
+.question9{
+  border: 3px solid #7b8ac7;
+  background-color: #bad3e2;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+
+}
 
 
 /*(10) Your answer goes below here for question #10 please use the border & background below */
-/* border: 3px solid #b8f9df; */
-/* background-color: #bad3e2; */
+
+.question10{
+  border: 3px solid #b8f9df;
+  background-color: #bad3e2;
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr 1fr;
+}
 
 
 /*(11) Your answer goes below here for question #11 please use the border & background below */
-/* border: 3px solid #7f798a; */
-/* background-color: #bad3e2; */
+
+.question11{
+  border: 3px solid #7f798a;
+  background-color: #bad3e2;
+  display: grid;
+  grid-template-areas: 
+    "head head"
+    "men cont"
+    "foot foot";
+    grid-template-columns: 1fr 20fr;
+}
+
+.question11 header{
+  grid-area: head;
+}
+
+.question11 aside{
+  grid-area: men;
+}
+
+.question11 main{
+  grid-area: cont;
+}
+
+.question11 footer{
+  grid-area: foot;
+}
